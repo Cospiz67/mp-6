@@ -1,11 +1,6 @@
 "use client";
 import styled from "styled-components";
-import { signIn } from "@/auth";
-
-async function login(formData: FormData){
-    const action = formData.get('action');
-    await signIn(action, {redirectTo: "/home"}); //sign in with the value of the button so here github
-}
+import { login } from "../actions/actions";
 
 export default function LoginForm(){
     return(
