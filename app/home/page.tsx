@@ -13,7 +13,7 @@ const StyledCard = styled.div`
   border: 3px solid #D97706;
   border-radius: 20px;
   place-items: center;
-*`;
+`;
 
 const StyledH3 = styled.h3`
   font-size: xx-large;
