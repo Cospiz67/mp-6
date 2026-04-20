@@ -27,7 +27,7 @@ const StyledImg = styled.img`
 export default function LoginForm(){
     return(
         <form action={login}>
-            <StyledButton type = "submit" name = "action" value= "GitHub">
+            <StyledButton type = "submit">
                 <StyledImg src = "/github.png" alt="GitHub image"></StyledImg>
                 Sign in with GitHub
             </StyledButton>
